@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_arrow_left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择测试材料"
+            android:textSize="@dimen/txtsize_headline"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_item1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_corner_rectangle_lightblue"
+            android:text="普通话CV单音节词\n(第一声调)"
+            android:textSize="@dimen/dp_22"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_item2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:background="@drawable/bg_corner_rectangle_lightblue"
+            android:text="普通话CV单音节词\n(四种声调)"
+            android:textSize="@dimen/dp_22"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.personal.dichotic.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_find"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分听"
+            android:textSize="@dimen/txtsize_headline"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/tv_start_button"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="开始"
+        android:gravity="center"
+        android:textSize="@dimen/txtsize_headline"
+        android:textColor="@color/white"
+        android:background="@drawable/oval_gray_bg"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tv_warn_headset"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="请插入耳机!"
+        android:textColor="@color/md_red_500"
+        android:textSize="@dimen/dp_22"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

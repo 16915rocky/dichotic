@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="CompatAppTheme">
+        <!--  &lt;!&ndash; Customize your theme here. &ndash;&gt;
+          <item name="colorPrimary">@color/colorPrimary</item>
+
+          <item name="colorAccent">@color/colorAccent</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorLightBlue</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme">
+     <!--   <item name="android:windowBackground">@drawable/flash_bg</item>-->
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style name="AppTheme.ToolbarPopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="overlapAnchor">false</item>
+
+        <item name="colorPrimaryDark">@color/colorLightBlue</item>
+    </style>
+
+    <style name="TextAppearance.ExpandedTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.White" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="FlashTheme" parent="AppTheme">
+     <!--   <item name="android:windowBackground">@drawable/flash_bg</item>-->
+    </style>
+
+</resources>

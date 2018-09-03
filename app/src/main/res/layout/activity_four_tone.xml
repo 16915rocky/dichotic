@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_find"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/txtsize_headline"
+            android:layout_gravity="center"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rt_count"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ta">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="它"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no2"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ka">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="喀"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ba2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="拔"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no4"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="da2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="达"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ta3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="塔"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no6"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ka3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="卡"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="pa4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="怕"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rt_word_no8"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:tag="ga4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="尬"
+                        android:textSize="@dimen/dp_40" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
